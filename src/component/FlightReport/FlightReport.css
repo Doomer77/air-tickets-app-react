@@ -1,0 +1,149 @@
+.card{
+  width: 100%; 
+}
+
+.flight-segment{
+  width: 100%;
+  padding: 1.5rem 2rem; 
+  border-radius: 2rem;
+}
+
+.flight-direction-full{
+  width: 100%;
+  display: flex; 
+  align-items: center;
+  margin-bottom: 1.3rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc; 
+}
+.flight-direction-full__arrow{
+  margin-right: 1rem;
+}
+
+.fa{
+  font-size: 1.5rem;
+}
+
+.departure-full{
+  margin-right: 1rem;
+}
+
+.departure-full__city{
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.departure-full__airport{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+} 
+
+.departure-full__abbreviation{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1987c9;
+}
+
+.arrival-full__city{
+  margin-right: .5rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+  
+.arrival-full__airport{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+} 
+
+.arrival-full__abbreviation{
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #1987c9; 
+}
+
+.flight-time-full{
+  width: 100%;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.flight-time-full__horse{
+  margin-left: 0.5rem; 
+}
+
+.flight-time-full__minutes{
+  margin-left: 0.5rem; 
+}
+
+.flight-time-full__time{
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.departure-time-full{
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.departure-time-full__time{
+  margin-right: .5rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.departure-time-full__data{
+  font-size: 1.2rem;
+  color: #0087c9;
+}
+
+.arrival-time-full__time{
+  margin-right: .5rem;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.arrival-time-full__data{
+  font-size: 1.2rem;
+  color: #0087c9;
+  font-weight: 700;
+}
+
+.transfer{
+  position: relative;
+  width: 80%;
+  margin-top: 2rem;
+  border-bottom: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+.transfer__overview{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffb168;
+  background-color: #fff;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.carrier-info{
+  margin-top: 1.5rem;
+}
+
+.carrier-info__text{
+  font-size: 1.4rem;
+}
+
+.carrier-info__name{
+  font-weight: 700;
+  margin-left: 0.5rem;
+}

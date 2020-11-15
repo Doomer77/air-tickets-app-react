@@ -1,0 +1,7 @@
+.app{
+  width: 65%;
+  height: 100vh;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}

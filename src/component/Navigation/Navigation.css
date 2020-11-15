@@ -1,0 +1,72 @@
+.sotring-block{
+  width: 20%;
+  padding: 1rem;
+  margin-right: 2rem;
+}
+
+.sort-flight-details{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.sort-flight-details__item{
+  display: flex; 
+  align-items: center;
+}
+
+.sort-flight-details__label{
+  font-size: 1.3rem;  
+  margin-left: .5rem; 
+}
+
+.sort-transfer{
+  width: 100%;
+  margin-bottom: 1rem;
+} 
+
+.sort-transfer__item{
+  display: flex; 
+  align-items: center;
+}  
+
+.sort-transfer__label{
+  font-size: 1.3rem;  
+  margin-left: .5rem;  
+}
+
+.sort-price{
+  width: 100%;
+  margin-bottom: 1rem; 
+}
+
+.sort-price__item{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+}
+.sort-price__item:not(:last-child){
+  margin-bottom: 1rem;
+}
+  
+.sort-price__label{
+  font-size: 1.3rem;  
+  margin-right: .5rem;  
+}
+
+.sort-price__input{
+  width: 85%;
+}
+
+.sort-airline{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.sort-airline__item{
+  display: flex; 
+  align-items: center;
+}   
+
+.sort-airline__label{
+  font-size: 1.1rem;    
+  margin-left: .5rem;  
+}
